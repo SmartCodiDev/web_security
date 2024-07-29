@@ -172,8 +172,8 @@ function create_jwt($email)
 {
     $key = "s3cR3tK3y@123!";
     $payload = [
-        "iss" => "http://ssa-id.me/dbx",
-        "aud" => "http://ssa-id.me/dbx",
+        "iss" => "http://ssa.000.pe/dbx",
+        "aud" => "http://ssa.000.pe/dbx",
         "iat" => time(),
         "nbf" => time(),
         "email" => $email

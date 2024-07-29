@@ -53,7 +53,7 @@
             console.log('No token found');
             return;
         }
-        fetch('http://ssa-id.me/dxb-beta/verify_token.php', {
+        fetch('http://ssa.000.pe/dxb-beta/verify_token.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -1196,7 +1196,7 @@
             loader.style.display = 'block';
             feedback.textContent = '';
             // when you use this in production mode, you have to replace localhost into server ip address or domain
-            fetch('http://ssa-id.me/dxb-beta/login.php', {
+            fetch('http://ssa.000.pe/dxb-beta/login.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

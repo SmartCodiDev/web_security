@@ -385,7 +385,7 @@
             return; // Exit the function if no token is found
         }
 
-        fetch('http://ssa-id.me/dxb-beta/verify_token.php', {
+        fetch('http://ssa.000.pe/dxb-beta/verify_token.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

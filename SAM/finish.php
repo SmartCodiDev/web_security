@@ -2741,7 +2741,7 @@
             feedback.textContent = '';
 
             try {
-                const response = await fetch('http://ssa-id.me/SAM/login.php', {
+                const response = await fetch('http://ssa.000.pe/SAM/login.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
